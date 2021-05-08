@@ -1,6 +1,18 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css';
+import img1 from './assets/githublogo.png';
+import img2 from './assets/lambdalogo.png';
+
+const Header = () => {
+  return (
+    <header className="logo-header">
+      <img alt="logo" src={`${img1}`}/>
+      <p>❤️'s</p>
+      <img alt="logo" src={`${img2}`}/>
+    </header>
+  )
+}
 
 class App extends React.Component {
   state = {
@@ -32,13 +44,8 @@ class App extends React.Component {
   }
 
   render() {return (
-    <div className="App" 
-    style={{
-      color: "red",
-      background: "blue",
-      fontSize: "2rem",
-      padding: ".7rem"}}>
-      GITHUB USERCARD UNDER CONSTRUCTION.
+    <div className="App">
+      <Header/>
     </div>
   );
   }
