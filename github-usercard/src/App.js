@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css';
-import img1 from './assets/githublogo.png';
-import img2 from './assets/lambdalogo.png';
+import img2 from './assets/githublogo.png';
+import img1 from './assets/lambdalogo.png';
 
 const Header = () => {
   return (
