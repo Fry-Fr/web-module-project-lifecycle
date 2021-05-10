@@ -1,4 +1,4 @@
-.App {
+#root {
   background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   min-height: 100vh;
 }
@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 0;
+  width: 100%;
 }
 .logo-header p {
   font-size: 3rem;
@@ -22,8 +23,8 @@ img {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  width: 75%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .card {
@@ -56,4 +57,13 @@ img {
   font-size: 1.2rem;
   font-style: italic;
   margin: 3px 0 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

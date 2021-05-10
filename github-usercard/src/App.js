@@ -42,7 +42,7 @@ class App extends React.Component {
   }
 
   render() {return (
-    <div className="App">
+    <div className="App container">
       <Header/>
       {this.state.dataObj ? <Cards data={this.state.dataObj} /> : <>NO DATA</>}
     </div>
