@@ -4,7 +4,7 @@ const Card = (props) => {
             <div className="card">
                 <img alt="avatar" src={props.data.avatar_url} />
                 <div className="card-info">
-                    <h3 className="name">Name: {props.data.name}</h3>
+                    <h3 className="name">{props.data.name}</h3>
                     <p className="username">Username: {props.data.login}</p>
                     <p>{props.data.location}</p>
                     <p>
