@@ -44,7 +44,8 @@ class App extends React.Component {
   render() {return (
     <div className="App container">
       <Header/>
-      {this.state.dataObj[0] ? <Cards data={this.state.dataObj} /> : <div className="no-card">NO DATA</div>}
+      {this.state.dataObj[0] ? <Cards data={this.state.dataObj} /> :
+      <div className="no-card">NO DATA</div>}
     </div>
   );
   }
